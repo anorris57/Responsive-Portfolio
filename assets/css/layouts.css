@@ -168,19 +168,71 @@ textarea {
 @media screen and (max-width:640px) {
     .name {
         margin-left: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+        width: 100px;
+    }
+    .nameContact {
+        margin-left: 10px;
+        width: 100px;
+        padding-top:2 px;
+        padding-bottom: 2px;
     }
     #about ul {
-        margin-left: 100px;
+        margin-left: 10px;
+    }
+    #portfolio ul {
+        margin-left: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    #contact ul {
+        margin-left: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
     }
     div.group {
-        width: 460px;
+        width: 260px;
+        height: 450px;
+    }
+    div.groupContact {
+        width: 260px;
+        height: 450px;
+        overflow: scroll;
+    }
+    .about{
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     img {
         height: 50px;
         width: 50px;
     }
     .middle {
-        height: 275px; 
+        height: 500px; 
+    }
+    input[type=text] {
+    width: 90%;
+    }
+    #portfolio .middle {
+        height: auto; 
+        overflow: scroll;
+    }
+    #portfolio img {
+        width: 90%;
+        height: auto;
+        margin-left: 10px;
+    }
+    #portfolio .groupContact {
+        width: 300px;
+    }
+    .bottom {
+        background-color: #666666;
+        height: 50px;
+    }
+    .end {
+        padding-top: 5px;
+        text-align: center;
     }
     
-}
